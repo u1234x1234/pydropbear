@@ -28,7 +28,6 @@ class DropbearBuild(build):
             )
 
         self.execute(compile, [], "Building Dropbear")
-        print("@" * 200)
         self.mkpath(self.build_lib)
 
         if not self.dry_run:
