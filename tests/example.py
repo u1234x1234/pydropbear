@@ -1,4 +1,4 @@
-from pysshserver import SSHServer
+from pydropbear import SSHServer
 import time
 
 
