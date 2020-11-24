@@ -22,6 +22,7 @@ def _get_bin_path():
     root_path = os.path.dirname(os.path.abspath(__file__))
     bin_path = os.path.join(root_path, DROPBEAR_BIN)
     assert os.path.exists(bin_path)
+    check_call(["chmod", "+x", bin_path])
     return bin_path
 
 

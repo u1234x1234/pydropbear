@@ -43,6 +43,7 @@ class DropbearBuild(build):
 
         if not self.dry_run:
             bin_path = os.path.join(DROPBEAR_PATH, "dropbearmulti")
+            check_call(["chmod", "+x", bin_path])
             self.copy_file(bin_path, self.build_lib + "/pydropbear")
 
 
@@ -58,7 +59,7 @@ def read(fname):
 
 setup(
     name="pydropbear",
-    version="0.0.4",
+    version="0.0.6",
     author="u1234x1234",
     author_email="u1234x1234@gmail.com",
     description=("pydropbear"),
