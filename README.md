@@ -2,13 +2,13 @@
 
 # pydropbear
 
-Lightweight SSH server shipped as a python package.
+Lightweight SSH server [Dropbear](https://matt.ucc.asn.au/dropbear/dropbear.html) shipped as a python package.
 
 Features:
 
 * Does not require system-wide installation
-* Small size (<3MB with prebuilt binaries)
-* An alternative to Openssh server or servers on top of [paramiko](https://github.com/paramiko/paramiko).
+* Small size (<3MB with prebuilt linux binaries)
+* An alternative to [OpenSSH](https://www.openssh.com/) server or servers on top of [paramiko](https://github.com/paramiko/paramiko).
 
 # Installation
 
